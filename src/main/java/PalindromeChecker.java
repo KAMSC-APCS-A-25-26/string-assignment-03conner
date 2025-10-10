@@ -2,6 +2,17 @@ import java.util.Scanner;
 
 public class PalindromeChecker {
     public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("enter a word: ");
+        String word = sc.nextLine();
+        String reverseWord = new StringBuilder();
+        String lowercase = word.toLowerCase();
+        String reverseWord = sb.reverse().string();
+        System.out.println();
+
+
+
         // TODO: Create a Scanner and read a full line from the user with nextLine().
         //       Keep the original input string so you can print it in the final message.
 
