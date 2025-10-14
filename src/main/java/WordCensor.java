@@ -6,7 +6,7 @@ public class WordCensor {
         String Censored, Words;
         System.out.println("Input: ");
         Words = sc.nextLine();
-        Censored = Words.replace("dang", "****") .replace("yikes", "****").replace("nuts", "****") .replace("oops", "****");
+        Censored = Words.replace("dang", "***") .replace("yikes", "***").replace("nuts", "****") .replace("oops", "***");
 
 
 

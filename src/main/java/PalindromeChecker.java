@@ -11,7 +11,7 @@ public class PalindromeChecker {
         if (cheese.equals(recWord)){
             System.out.println(word +" is a palindrome");}
         else;
-        System.out.println(word + " is not a paliddrome");
+        System.out.println(word + " is NOT a palindrome");
 
 
 
