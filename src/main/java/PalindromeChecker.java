@@ -4,12 +4,14 @@ public class PalindromeChecker {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("enter a word: ");
+        System.out.println("Enter a word: ");
         String word = sc.nextLine();
-        String reverseWord = new StringBuilder();
-        String lowercase = word.toLowerCase();
-        String reverseWord = sb.reverse().string();
-        System.out.println();
+        String cheese = word.toLowerCase();
+        String recWord = new StringBuilder(cheese).reverse().toString();
+        if (cheese.equals(recWord)){
+            System.out.println(word +" is a palindrome");}
+        else;
+        System.out.println(word + " is not a paliddrome");
 
 
 
